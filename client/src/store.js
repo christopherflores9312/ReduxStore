@@ -1,7 +1,7 @@
-import { createStore } from 'redux';
-import reducers from './utils/reducers'; // You might need to modify your reducers to match the Redux style
+import { configureStore } from '@reduxjs/toolkit';
+import { reducer } from './utils/reducers'; // Use named import syntax here
 
-export default createStore(
-  reducers,
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-);
+export default configureStore({
+  reducer,
+  devTools: process.env.NODE_ENV !== 'production',
+});
