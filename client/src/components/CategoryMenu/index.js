@@ -7,7 +7,7 @@ import { idbPromise } from '../../utils/helpers';
 
 function CategoryMenu() {
   const dispatch = useDispatch(); // Get dispatch function
-  const { categories } = useSelector(state => state); // Access state
+  const categories = useSelector(state => state.categories); // Access state
 
   const { loading, data: categoryData } = useQuery(QUERY_CATEGORIES);
 
