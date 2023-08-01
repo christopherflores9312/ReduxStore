@@ -18,7 +18,7 @@ This is a simple e-commerce platform using Redux to manage global state instead 
 
 1. Clone the repository to your local machine. 
 
-git clone https://github.com/christopherflores9312/redux-store.git
+git clone https://github.com/christopherflores9312/ReduxStore.git
 
 2. Navigate to the project directory.
 
