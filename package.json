@@ -4,7 +4,7 @@
   "description": "",
   "main": "server/server.js",
   "scripts": {
-    "start": "node server/server.js && if [ \"$SEED_DB\" = \"true\" ]; then node server/seeds/index.js; fi",
+    "start": "node server/server.js && if [ \"$SEED_DB\" = \"true\" ]; then node server/config/seeds.js; fi",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed",
