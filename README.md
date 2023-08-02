@@ -38,6 +38,12 @@ The application will open in your browser at http://localhost:3000.
 
 Once the application has been launched, users can add items to their cart, view the cart, and checkout. All product and order data is saved in a MongoDB database.
 
+## Example
+
+[CLICK HERE!](https://reduxstore9312-29f082b878a2.herokuapp.com/) for a preview
+
+[![screenshot](./screenshot.png)](https://reduxstore9312-29f082b878a2.herokuapp.com/)
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
